@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+div {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.token-input-style {
+  width: 100%;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+}
+
+.token-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.input-container-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 5rem;
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+}
