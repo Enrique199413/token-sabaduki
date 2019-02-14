@@ -1,4 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+@import "~@material/ripple/dist/mdc.ripple.min.css";
+@import "~@material/textfield/dist/mdc.textfield.min.css";
+@import "~@material/layout-grid/dist/mdc.layout-grid.min.css";
+@import "~@material/button/dist/mdc.button.min.css";
+@import "~@material/card/dist/mdc.card.min.css";
+@import "~@material/typography/dist/mdc.typography.min.css";
+
+* {
+  --mdc-theme-primary: #006DFF;
+  --mdc-theme-secondary: #67a8fc;
+  --mdc-theme-on-primary: #00367c;
+  --mdc-theme-on-secondary: #00367c;
+}
+
+.token-label-space {
+  margin-right: .5rem;
+}
+
+.mdc-text-field--focused {
+  color: var(--mdc-theme-on-primary) !important;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v43/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
 
 div {
   font-family: 'Libre Franklin', sans-serif;
@@ -21,8 +67,9 @@ div {
 .input-container-numbers {
   display: flex;
   flex-wrap: wrap;
-  width: 5rem;
+  width: 12rem;
   position: absolute;
   right: 3rem;
-  top: 2rem;
+  top: 3rem;
 }
+
